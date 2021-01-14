@@ -1,0 +1,80 @@
+.container{
+   display: flex;
+   font-family: Merriweather; 
+justify-content: center;
+  
+}
+
+.map{
+    display: flex;
+    flex-direction: row;
+    flex:2;
+}
+
+h1{
+    text-align: center;
+}
+
+.info{
+    text-align: center;
+}
+
+footer{
+    text-align: center;
+}
+
+.legend{
+    align-items: center;
+
+}
+.redblock{
+    width: 40px;
+    height: 40px;
+    background-color: rgb(214,48,29);
+    border-style: solid;
+    border-color: black;
+    margin-right:.5em;
+    
+}
+
+
+.red, .blue, .green{
+   display: flex;
+
+
+}
+
+#infoDiv{
+    opacity: 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: #444;
+    color: #fff;
+    padding: 10px 20px;
+    margin: 10px;
+    z-index: 99999;
+}
+
+.legend{
+    align-self: center;
+}
+.blueblock{
+    width: 40px;
+    height: 40px;
+    border-style: solid;
+    border-color: black;
+    background-color: rgb(66,29,214);
+margin-right:.5em;
+
+}
+
+.greenblock{
+    width: 40px;
+    height: 40px;
+    border-style: solid;
+    border-color: black;
+    background-color: rgb(177,214,29);
+    margin-right:.5em;
+}
+
